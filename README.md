@@ -1,5 +1,7 @@
 # popover-menu
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/entercosmos/popover-menu.svg)](https://greenkeeper.io/)
+
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
