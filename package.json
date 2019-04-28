@@ -1,7 +1,7 @@
 {
-  "name": "popover-menu",
-  "version": "1.0.0",
-  "description": "popover-menu React component",
+  "name": "@cmds/popover-menu",
+  "version": "0.1.0",
+  "description": "Used for displaying a menu with options to choose from",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -11,6 +11,7 @@
     "umd"
   ],
   "scripts": {
+    "deploy": "cd demo/dist && surge --project ./ --domain cmds-popover-menu.surge.sh",
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
@@ -24,8 +25,12 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@cmds/demo-utils": "^0.2.0",
+    "@cmds/icons": "^0.2.0",
+    "emotion": "^10.0.9",
     "nwb": "0.23.x",
     "react": "^16.8.6",
+    "react-click-outside": "github:tj/react-click-outside",
     "react-dom": "^16.8.6"
   },
   "author": "",
