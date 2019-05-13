@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 import {injectGlobal, css} from 'emotion'
-import {Canvas, Heading, Paragraph, Box} from '@cmds/demo-utils'
-import pencil from '@cmds/icons/lib/pencil'
-import trash from '@cmds/icons/lib/trash'
+import {Canvas, Heading, Paragraph, Box} from '@pndr/demo-utils'
+import pencil from '@pndr/icons/lib/pencil'
+import trash from '@pndr/icons/lib/trash'
 import {Menu, MenuItem} from '../../src'
 
 injectGlobal`
